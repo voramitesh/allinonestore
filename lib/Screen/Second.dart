@@ -31,6 +31,7 @@ class _SecondPageState extends State<SecondPage> {
           children: [
             WebView(
               initialUrl: "$data",
+              javascriptMode: JavascriptMode.unrestricted,
               onProgress: (value) {
                 if (value == 100) {
                   setState(() {

@@ -68,18 +68,20 @@ class _FirstPageState extends State<FirstPage> {
                     ),
                   ),
                   SizedBox(height: 10,width:20,),
-                  Container(
-                      height: 40,
-                      width: 200,
-                      decoration: BoxDecoration(
-                          color: Colors.deepOrangeAccent,
-                          borderRadius: BorderRadius.circular(20)),
-                      child: Center(
-                          child: Text(
-                            "${l2[index]}",
-                            style: TextStyle(
-                                fontSize: 20, fontWeight: FontWeight.w700,color: Colors.black),
-                          ))),
+                  Expanded(
+                    child: Container(
+                        height: 40,
+                        width: 200,
+                        decoration: BoxDecoration(
+                            color: Colors.deepOrangeAccent,
+                            borderRadius: BorderRadius.circular(20)),
+                        child: Center(
+                            child: Text(
+                              "${l2[index]}",
+                              style: TextStyle(
+                                  fontSize: 20, fontWeight: FontWeight.w700,color: Colors.black),
+                            ))),
+                  ),
                 ],
               ),
             );

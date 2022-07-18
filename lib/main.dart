@@ -1,8 +1,7 @@
-import 'dart:js';
-
-import 'package:allinonestore/Screen/FIrstScreen.dart';
-import 'package:allinonestore/Screen/Second.dart';
 import 'package:flutter/material.dart';
+
+import 'Screen/FIrstScreen.dart';
+import 'Screen/Second.dart';
 void main(){
   runApp(
     MaterialApp(
